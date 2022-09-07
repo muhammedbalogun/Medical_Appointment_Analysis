@@ -18,3 +18,12 @@ The dataset used for this analysis is originally from Kaggle. It contains approx
 - No-show: No-if the patient show up and Yes-if the patient did not turn up for the appointment
 
 The are thirteen independent variables in the dataset and only one dependent variable (No-show). The no-show variable is the target vector which we want to explore how other variables in the dataset can help us to predict.
+
+## Conclusions
+After carrying out investigation on the categorical dataset to study the relationship between no_show and other features, it can be concluded that the age, gender, scholarship, medical conditions of patients, and drinking habit of patient can be useful in predicting whether a patient will show or not for a medical appointment.
+
+Further investigation through statistical modelling and machine learning prediction should be carried out to further determine the effect of each feature in predicting the no_show outcome.
+
+## Limitations
+- The dataset contains majorly categorical data which limit the type of analaysis which can be performed on the data.
+- There could be other factors that influence the no_show value of patients which are not provided in the dataset. Example may include the ease of the patient to get to the hospital at the time of appointment.
